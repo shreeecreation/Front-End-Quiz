@@ -227,7 +227,13 @@ abstract class AppStyles {
     height: calculateHeight(24, 20),
     fontStyle: FontStyle.normal,
   );
-
+  //SemiBold
+  static TextStyle text20PxMedium = GoogleFonts.openSans(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w600,
+    height: calculateHeight(24, 20),
+    fontStyle: FontStyle.normal,
+  );
   //bold
   static TextStyle text20PxBold = GoogleFonts.openSans(
     fontSize: 20.sp,
@@ -242,6 +248,39 @@ abstract class AppStyles {
     height: calculateHeight(26, 22),
     fontStyle: FontStyle.normal,
   );
+
+  // text 22px
+  //regular
+  static TextStyle text22Px = GoogleFonts.openSans(
+    fontSize: 22.sp,
+    height: calculateHeight(28, 24),
+    fontStyle: FontStyle.normal,
+  );
+
+  //medium
+  static TextStyle text22PxMedium = GoogleFonts.openSans(
+    fontSize: 22.sp,
+    fontWeight: FontWeight.w500,
+    height: calculateHeight(28, 24),
+    fontStyle: FontStyle.normal,
+  );
+
+  //SemiBold
+  static TextStyle text22PxSemiBold = GoogleFonts.openSans(
+    fontSize: 22.sp,
+    fontWeight: FontWeight.w600,
+    height: calculateHeight(28, 24),
+    fontStyle: FontStyle.normal,
+  );
+
+  //bold
+  static TextStyle text24PxBold = GoogleFonts.openSans(
+    fontSize: 24.sp,
+    fontWeight: FontWeight.bold,
+    height: calculateHeight(28, 24),
+    fontStyle: FontStyle.normal,
+  );
+
   // text 24px
   //regular
   static TextStyle text24Px = GoogleFonts.openSans(
@@ -262,14 +301,6 @@ abstract class AppStyles {
   static TextStyle text24PxSemiBold = GoogleFonts.openSans(
     fontSize: 24.sp,
     fontWeight: FontWeight.w600,
-    height: calculateHeight(28, 24),
-    fontStyle: FontStyle.normal,
-  );
-
-  //bold
-  static TextStyle text24PxBold = GoogleFonts.openSans(
-    fontSize: 24.sp,
-    fontWeight: FontWeight.bold,
     height: calculateHeight(28, 24),
     fontStyle: FontStyle.normal,
   );
