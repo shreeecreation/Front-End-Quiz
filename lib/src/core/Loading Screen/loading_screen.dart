@@ -25,7 +25,7 @@ class _LoadingScreenState extends State<LoadingScreen> with SingleTickerProvider
       ..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
           // Perform your desired action or fire the event here
-          Navigator.push(context, MaterialPageRoute(builder: ((context) {
+          Navigator.pushReplacement(context, MaterialPageRoute(builder: ((context) {
             return const QuizScreen();
           })));
         }
