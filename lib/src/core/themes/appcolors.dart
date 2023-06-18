@@ -31,7 +31,8 @@ abstract class AppColors {
   static const Color white = Color(0xFFFFFFFF);
   static const Color black = Color(0xFF000000);
   static const Color transparent = Colors.transparent;
-  static const Color defaultbackground = Color(0xFFF4FBF3);
+  static const Color defaultbackground = Color(0xFF03045e);
+  static const Color cardColor = Color(0xFF134074);
 
   //homepage color
 
