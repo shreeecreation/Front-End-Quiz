@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:quiz/src/app/screens/Home%20Screen/presentation/home_screen.dart';
 
 import 'src/core/themes/themedata.dart';
@@ -12,11 +13,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: appTheme,
-      home: const HomeScreen(),
-      debugShowCheckedModeBanner: false,
-    );
+    return GetMaterialApp(title: 'Flutter Demo', theme: appTheme, home: const HomeScreen(), debugShowCheckedModeBanner: false);
   }
 }

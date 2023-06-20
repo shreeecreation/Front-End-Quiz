@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quiz/src/app/screens/Home%20Screen/domain/language_map.dart';
+import 'package:quiz/src/app/screens/Quiz%20Screen/domain/loaded_quiz_data.dart';
 import 'package:quiz/src/core/Dialog%20Box/level_daialog.dart';
 import 'package:quiz/src/core/extensions/colors_extension.dart';
 import 'package:quiz/src/core/themes/appcolors.dart';
@@ -54,6 +55,7 @@ Widget appBuilder() {
           final image = language.values.first;
           return GestureDetector(
             onTap: () {
+              LoadedQuizData.path = language.values.last;
               LevelDialog.levelDialog(context);
             },
             child: Card(

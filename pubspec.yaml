@@ -36,6 +36,8 @@ flutter:
   assets:
     - assets/images/app/
     - assets/images/web/
+    - assets/json/app/
+    - assets/json/web/
   #   - images/a_dot_ham.jpeg
 
 

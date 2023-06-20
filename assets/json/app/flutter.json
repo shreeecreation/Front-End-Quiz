@@ -1,0 +1,319 @@
+[
+	{
+		"info": [
+			"Flutter - Beautiful Apps, Fast Development.",
+			"Flutter - Build Once, Run Anywhere",
+			"Flutter - The Power of Native Performance.",
+			"Flutter - Fast, expressive, and flexible UI development."
+		],
+		"questions_easy": {
+			"questions_1": {
+				"question": "What programming language is commonly used to develop Flutter apps ? ",
+				"options": [
+					"Java",
+					"Python",
+					"Dart",
+					"C++"
+				],
+				"answer": "2"
+			},
+			"questions_2": {
+				"question": "What programming language is commonly used to develop Flutter apps ?",
+				"options": [
+					"Android Studio",
+					"Xcode",
+					"VS code",
+					"Notepad++"
+				],
+				"answer": "0"
+			},
+			"questions_3": {
+				"question": "Which company developed Flutter ?",
+				"options": [
+					"Google",
+					"Apple",
+					"Microsoft",
+					"Facebook"
+				],
+				"answer": "0"
+			},
+			"questions_4": {
+				"question": "What is the widget used to create a button in Flutter ?",
+				"options": [
+					"TextView",
+					"ButtonView",
+					"TextField",
+					"RaisedButton"
+				],
+				"answer": "3"
+			},
+			"questions_5": {
+				"question": "What does the 'hot reload' feature in Flutter allow developers to do ?",
+				"options": [
+					"Restart the app completely",
+					"Update the app's code without restarting",
+					"Add new features to the app",
+					"Generate automatic test cases"
+				],
+				"answer": "1"
+			},
+			"questions_6": {
+				"question": "What is the main building block of a Flutter UI ?",
+				"options": [
+					"Activity",
+					"Fragment",
+					"View",
+					"Widget"
+				],
+				"answer": "3"
+			},
+			"questions_7": {
+				"question": "What is the command used to create a new Flutter project from the command line ?",
+				"options": [
+					"flutter start",
+					"flutter new",
+					"flutter create",
+					"flutter init"
+				],
+				"answer": "2"
+			},
+			"questions_8": {
+				"question": "What is the primary purpose of the 'pubspec.yaml' file in a Flutter project ?",
+				"options": [
+					"Define the app's user interface",
+					"Manage external dependencies",
+					"Specify app permissions",
+					"Store app data"
+				],
+				"answer": "1"
+			},
+			"questions_9": {
+				"question": "What widget is used to display a list of scrollable items in Flutter ?",
+				"options": [
+					"GridView",
+					"ListView",
+					"RecyclerView",
+					"ScrollView"
+				],
+				"answer": "1"
+			},
+			"questions_10": {
+				"question": "Which of the following is not a valid state in Flutter ?",
+				"options": [
+					"Active",
+					"Inactive",
+					"Loading",
+					"Error"
+				],
+				"answer": "0"
+			}
+		},
+		"questions_medium": {
+			{
+				"questions_1": {
+					"question": "What is the purpose of the 'BuildContext' parameter in Flutter?",
+					"options": [
+						"To handle user input",
+						"To manage state",
+						"To provide information about the current widget's location",
+						"To define layout constraints"
+					],
+					"answer": "2"
+				},
+				"questions_2": {
+					"question": "Which widget is used to display a snackbar in Flutter?",
+					"options": [
+						"Dialog",
+						"Toast",
+						"Snackbar",
+						"Overlay"
+					],
+					"answer": "2"
+				},
+				"questions_3": {
+					"question": "What is the purpose of the 'Scaffold' widget in Flutter?",
+					"options": [
+						"To handle user input",
+						"To define the app's layout structure",
+						"To display images and icons",
+						"To manage network requests"
+					],
+					"answer": "1"
+				},
+				"questions_4": {
+					"question": "How can you navigate to a new screen in Flutter?",
+					"options": [
+						"Using the 'Navigator.push' method",
+						"Using the 'startActivity' function",
+						"Using the 'goTo' command",
+						"Using the 'showDialog' method"
+					],
+					"answer": "0"
+				},
+				"questions_5": {
+					"question": "What is the purpose of the 'async' keyword in Dart/Flutter?",
+					"options": [
+						"It defines a new asynchronous function",
+						"It declares a variable as constant",
+						"It represents a boolean data type",
+						"It specifies the data type of a future object"
+					],
+					"answer": "0"
+				},
+				"questions_6": {
+					"question": "Which package is commonly used for state management in Flutter?",
+					"options": [
+						"redux",
+						"provider",
+						"mobx",
+						"stateful"
+					],
+					"answer": "1"
+				},
+				"questions_7": {
+					"question": "What is the purpose of the 'Hero' widget in Flutter?",
+					"options": [
+						"To animate transitions between screens",
+						"To display images with zoom functionality",
+						"To create interactive animations",
+						"To handle touch events"
+					],
+					"answer": "0"
+				},
+				"questions_8": {
+					"question": "What is the purpose of the 'MediaQuery' class in Flutter?",
+					"options": [
+						"To fetch data from a remote server",
+						"To handle media playback",
+						"To retrieve device-specific information",
+						"To manage app navigation"
+					],
+					"answer": "2"
+				},
+				"questions_9": {
+					"question": "Which widget is used to create a responsive grid layout in Flutter?",
+					"options": [
+						"GridView",
+						"Wrap",
+						"Flex",
+						"Table"
+					],
+					"answer": "0"
+				},
+				"questions_10": {
+					"question": "How can you make a network request in Flutter?",
+					"options": [
+						"Using the 'http' package",
+						"Using the 'fetch' function",
+						"Using the 'network' library",
+						"Using the 'HttpRequest' class"
+					],
+					"answer": "0"
+				}
+			},
+			"questions_hard": {
+				{
+					"questions_1": {
+						"question": "What is the maximum number of concurrent animations recommended in Flutter?",
+						"options": [
+							"1",
+							"5",
+							"10",
+							"Unlimited"
+						],
+						"answer": "1"
+					},
+					"questions_2": {
+						"question": "Which widget is used to create a circular progress indicator in Flutter?",
+						"options": [
+							"CircularProgressIndicator",
+							"LinearProgressIndicator",
+							"ProgressBar",
+							"RadialProgressIndicator"
+						],
+						"answer": "0"
+					},
+					"questions_3": {
+						"question": "What is the purpose of the 'GlobalKey' class in Flutter?",
+						"options": [
+							"To store global variables",
+							"To manage global app state",
+							"To uniquely identify widgets",
+							"To access platform-specific APIs"
+						],
+						"answer": "2"
+					},
+					"questions_4": {
+						"question": "What is the purpose of the 'LayoutBuilder' widget in Flutter?",
+						"options": [
+							"To define layout constraints",
+							"To handle user input",
+							"To animate widgets",
+							"To manage app navigation"
+						],
+						"answer": "0"
+					},
+					"questions_5": {
+						"question": "Which of the following is not a valid state management solution in Flutter?",
+						"options": [
+							"BLoC",
+							"GetX",
+							"Redux",
+							"RxDart"
+						],
+						"answer": "3"
+					},
+					"questions_6": {
+						"question": "What is the purpose of the 'RenderObject' class in Flutter?",
+						"options": [
+							"To handle gestures",
+							"To paint widgets on the screen",
+							"To manage layout and composition",
+							"To interact with platform-specific APIs"
+						],
+						"answer": "2"
+					},
+					"questions_7": {
+						"question": "Which widget can be used to create a parallax effect in Flutter?",
+						"options": [
+							"ParallaxContainer",
+							"ParallaxBox",
+							"ParallaxImage",
+							"SliverAppBar"
+						],
+						"answer": "3"
+					},
+					"questions_8": {
+						"question": "What is the purpose of the 'NotificationListener' widget in Flutter?",
+						"options": [
+							"To handle user input",
+							"To manage app navigation",
+							"To listen for and handle notifications",
+							"To control animations"
+						],
+						"answer": "2"
+					},
+					"questions_9": {
+						"question": "What is the purpose of the 'ShaderMask' widget in Flutter?",
+						"options": [
+							"To apply shaders to images",
+							"To mask widgets with shapes",
+							"To create custom animations",
+							"To handle touch events"
+						],
+						"answer": "1"
+					},
+					"questions_10": {
+						"question": "Which widget can be used to create a draggable element in Flutter?",
+						"options": [
+							"Draggable",
+							"GestureDetector",
+							"DragTarget",
+							"DraggableWidget"
+						],
+						"answer": "0"
+					}
+				}
+			}
+		}}
+	]

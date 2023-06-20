@@ -1,7 +1,7 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:quiz/src/app/screens/Quiz%20Screen/domain/loaded_quiz_data.dart';
-import 'package:quiz/src/core/Loading%20Screen/loading_screen.dart';
+import 'package:quiz/src/core/Routes/routes.dart';
 import 'package:quiz/src/core/extensions/colors_extension.dart';
 import 'package:quiz/src/core/themes/appcolors.dart';
 import 'package:quiz/src/core/themes/appstyles.dart';
@@ -21,7 +21,13 @@ class LevelDialog {
           child: ListTile(
               title: Text('0. Unchallenging', style: AppStyles.text14PxMedium.white),
               trailing: const Icon(Icons.star, color: Colors.white),
-              onTap: () {}),
+              onTap: () async {
+                //Loading the quiz data
+                LoadedQuizData.intensity = "Unchallenging";
+                Navigator.pop(context);
+                await Future.delayed(const Duration(milliseconds: 500));
+                Routes.loadingScreenRoutes();
+              }),
         ),
         const SizedBox(height: 3),
         Container(
@@ -35,12 +41,11 @@ class LevelDialog {
                 child: Row(children: [Icon(Icons.star, color: Colors.white), Icon(Icons.star, color: Colors.white)]),
               ),
               onTap: () async {
-                LoadedQuizData.intensity = "moderate";
+                //Loading the quiz data
+                LoadedQuizData.intensity = "Moderate";
                 Navigator.pop(context);
                 await Future.delayed(const Duration(milliseconds: 500));
-                Navigator.push(context, MaterialPageRoute(builder: ((context) {
-                  return const LoadingScreen();
-                })));
+                Routes.loadingScreenRoutes();
               }),
         ),
         const SizedBox(height: 3),
@@ -53,14 +58,16 @@ class LevelDialog {
                 height: 20,
                 width: 75,
                 child: Row(
-                  children: [
-                    Icon(Icons.star, color: Colors.white),
-                    Icon(Icons.star, color: Colors.white),
-                    Icon(Icons.star, color: Colors.white)
-                  ],
+                  children: [Icon(Icons.star, color: Colors.white), Icon(Icons.star, color: Colors.white), Icon(Icons.star, color: Colors.white)],
                 ),
               ),
-              onTap: () {}),
+              onTap: () async {
+                //Loading the quiz data
+                LoadedQuizData.intensity = "Challening";
+                Navigator.pop(context);
+                await Future.delayed(const Duration(milliseconds: 500));
+                Routes.loadingScreenRoutes();
+              }),
         ),
       ])),
       title: 'Choose intensity',
