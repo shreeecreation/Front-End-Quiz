@@ -1,0 +1,322 @@
+[
+	{
+		"info": [
+			"Flutter - Beautiful Apps, Fast Development.",
+			"Flutter - Build Once, Run Anywhere",
+			"Flutter - The Power of Native Performance.",
+			"Flutter - Fast, expressive, and flexible UI development."
+		],
+		
+		"questions_easy": {
+			"question_1": {
+					"question": "What is the output of the following expression: 2 + 2?",
+					"options": [
+							"2",
+							"4",
+							"22",
+							"NaN"
+					],
+					"answer": "1"
+			},
+			"question_2": {
+					"question": "Which keyword is used to declare a variable in JavaScript?",
+					"options": [
+							"variable",
+							"declare",
+							"var",
+							"let"
+					],
+					"answer": "2"
+			},
+			"question_3": {
+					"question": "What is the correct way to write a JavaScript comment?",
+					"options": [
+							"// This is a comment",
+							"/* This is a comment */",
+							"' This is a comment",
+							"# This is a comment"
+					],
+					"answer": "0"
+			},
+			"question_4": {
+					"question": "What is the result of the following comparison: '5' == 5?",
+					"options": [
+							"true",
+							"false",
+							"undefined",
+							"NaN"
+					],
+					"answer": "0"
+			},
+			"question_5": {
+					"question": "Which operator is used for concatenating strings in JavaScript?",
+					"options": [
+							"+",
+							"-",
+							"*",
+							"/"
+					],
+					"answer": "0"
+			},
+			"question_6": {
+					"question": "What is the correct syntax for a JavaScript function?",
+					"options": [
+							"function = myFunction()",
+							"function myFunction()",
+							"myFunction = function()",
+							"myFunction()"
+					],
+					"answer": "1"
+			},
+			"question_7": {
+					"question": "Which method is used to remove the last element from an array in JavaScript?",
+					"options": [
+							"pop()",
+							"push()",
+							"shift()",
+							"unshift()"
+					],
+					"answer": "0"
+			},
+			"question_8": {
+					"question": "What does the typeof operator return for an array?",
+					"options": [
+							"\"array\"",
+							"\"object\"",
+							"\"array\"",
+							"\"undefined\""
+					],
+					"answer": "1"
+			},
+			"question_9": {
+					"question": "Which method is used to add elements to the end of an array in JavaScript?",
+					"options": [
+							"pop()",
+							"push()",
+							"shift()",
+							"unshift()"
+					],
+					"answer": "1"
+			},
+			"question_10": {
+					"question": "What is the result of the following expression: 10 % 3?",
+					"options": [
+							"3",
+							"1",
+							"0",
+							"10"
+					],
+					"answer": "1"
+			}
+	}
+,
+
+"questions_medium": {
+	"question_1": {
+			"question": "What is the result of the following expression: 10 + '5'?",
+			"options": [
+					"'105'",
+					"'15'",
+					"'50'",
+					"'NaN'"
+			],
+			"answer": "0"
+	},
+	"question_2": {
+			"question": "Which method is used to check if a string contains a specified substring?",
+			"options": [
+					"includes()",
+					"indexOf()",
+					"substring()",
+					"search()"
+			],
+			"answer": "0"
+	},
+	"question_3": {
+			"question": "What is the purpose of the JavaScript parseInt() function?",
+			"options": [
+					"To convert a string to a floating-point number",
+					"To convert a number to a string",
+					"To convert a string to an integer",
+					"To round a number to the nearest integer"
+			],
+			"answer": "2"
+	},
+	"question_4": {
+			"question": "Which operator is used to compare the value and type of two operands?",
+			"options": [
+					"==",
+					"===",
+					"!=",
+					"!=="
+			],
+			"answer": "1"
+	},
+	"question_5": {
+			"question": "What is the purpose of the JavaScript map() method?",
+			"options": [
+					"To iterate over the elements of an array",
+					"To create a new array with the results of calling a provided function on every element in the array",
+					"To filter the elements of an array based on a condition",
+					"To sort the elements of an array"
+			],
+			"answer": "1"
+	},
+	"question_6": {
+			"question": "Which method is used to join the elements of an array into a string?",
+			"options": [
+					"concat()",
+					"join()",
+					"slice()",
+					"splice()"
+			],
+			"answer": "1"
+	},
+	"question_7": {
+			"question": "What is the purpose of the JavaScript slice() method?",
+			"options": [
+					"To remove elements from an array",
+					"To extract a section of a string and return it as a new string",
+					"To convert a string to uppercase",
+					"To add elements to the beginning of an array"
+			],
+			"answer": "1"
+	},
+	"question_8": {
+			"question": "Which method is used to sort the elements of an array in JavaScript?",
+			"options": [
+					"sort()",
+					"concat()",
+					"reverse()",
+					"filter()"
+			],
+			"answer": "0"
+	},
+	"question_9": {
+			"question": "What is the purpose of the JavaScript reduce() method?",
+			"options": [
+					"To check if an array contains a specified element",
+					"To apply a function to each element of an array and reduce it to a single value",
+					"To remove the first element from an array",
+					"To convert a string to an array of characters"
+			],
+			"answer": "1"
+	},
+	"question_10": {
+			"question": "What is the result of the following expression: Boolean('false')?",
+			"options": [
+					"true",
+					"false",
+					"undefined",
+					"NaN"
+			],
+			"answer": "0"
+	}
+},
+
+
+"questions_hard": {
+    "question_1": {
+      "question": "What is the result of the following expression: [] + {}?",
+      "options": [
+        "'[object Object]'",
+        "'[object Array]'",
+        "'{}'",
+        "'NaN'"
+      ],
+      "answer": "0"
+    },
+    "question_2": {
+      "question": "What is the purpose of the JavaScript bind() method?",
+      "options": [
+        "To create a new array with the results of calling a provided function on every element in the array",
+        "To combine multiple arrays into a single array",
+        "To create a new function that, when called, has its this keyword set to a specified value",
+        "To check if a string contains a specified substring"
+      ],
+      "answer": "2"
+    },
+    "question_3": {
+      "question": "What is the result of the following expression: typeof typeof 42?",
+      "options": [
+        "'number'",
+        "'string'",
+        "'undefined'",
+        "'object'"
+      ],
+      "answer": "1"
+    },
+    "question_4": {
+      "question": "Which method is used to execute a function after a specified number of milliseconds?",
+      "options": [
+        "setTimeout()",
+        "setInterval()",
+        "requestAnimationFrame()",
+        "clearTimeout()"
+      ],
+      "answer": "0"
+    },
+    "question_5": {
+      "question": "What is the purpose of the JavaScript Object.freeze() method?",
+      "options": [
+        "To add new properties to an object",
+        "To remove properties from an object",
+        "To prevent any changes to an object",
+        "To check if an object has a specified property"
+      ],
+      "answer": "2"
+    },
+    "question_6": {
+      "question": "Which method is used to remove the last element from an array and return that element?",
+      "options": [
+        "pop()",
+        "shift()",
+        "splice()",
+        "slice()"
+      ],
+      "answer": "0"
+    },
+    "question_7": {
+      "question": "What is the purpose of the JavaScript Math.random() method?",
+      "options": [
+        "To generate a random integer",
+        "To generate a random floating-point number between 0 and 1",
+        "To round a number to the nearest integer",
+        "To calculate the square root of a number"
+      ],
+      "answer": "1"
+    },
+    "question_8": {
+      "question": "Which method is used to remove the first element from an array and return that element?",
+      "options": [
+        "shift()",
+        "pop()",
+        "slice()",
+        "splice()"
+      ],
+      "answer": "0"
+    },
+    "question_9": {
+      "question": "What is the purpose of the JavaScript Promise object?",
+      "options": [
+        "To handle synchronous operations",
+        "To represent a value that may be available in the future",
+        "To execute a function after a specified delay",
+        "To format strings based on patterns"
+      ],
+      "answer": "1"
+    },
+    "question_10": {
+      "question": "Which method is used to convert a JavaScript object to a JSON string?",
+      "options": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.serialize()",
+        "JSON.stringifyify()"
+      ],
+      "answer": "0"
+    }
+  }
+		}
+	
+	]

@@ -1,0 +1,320 @@
+[
+	{
+		"info": [
+			"Flutter - Beautiful Apps, Fast Development.",
+			"Flutter - Build Once, Run Anywhere",
+			"Flutter - The Power of Native Performance.",
+			"Flutter - Fast, expressive, and flexible UI development."
+		],
+		
+  "questions_easy": {
+			"question_1": {
+					"question": "What programming language is commonly used to develop React Native apps?",
+					"options": [
+							"Java",
+							"Python",
+							"JavaScript",
+							"C#"
+					],
+					"answer": "2"
+			},
+			"question_2": {
+					"question": "What is the primary purpose of React Native?",
+					"options": [
+							"To develop web applications",
+							"To develop native mobile apps",
+							"To develop desktop applications",
+							"To develop server-side applications"
+					],
+					"answer": "1"
+			},
+			"question_3": {
+					"question": "Which company developed React Native?",
+					"options": [
+							"Google",
+							"Apple",
+							"Facebook",
+							"Microsoft"
+					],
+					"answer": "2"
+			},
+			"question_4": {
+					"question": "What is the main building block of a React Native app?",
+					"options": [
+							"Activity",
+							"Fragment",
+							"Component",
+							"Widget"
+					],
+					"answer": "2"
+			},
+			"question_5": {
+					"question": "What does JSX stand for in React Native?",
+					"options": [
+							"JavaScript XML",
+							"Java XML",
+							"JSON XML",
+							"JS XML"
+					],
+					"answer": "0"
+			},
+			"question_6": {
+					"question": "Which command is used to create a new React Native project?",
+					"options": [
+							"react-native start",
+							"react-native new",
+							"react-native create",
+							"react-native init"
+					],
+					"answer": "3"
+			},
+			"question_7": {
+					"question": "What is the extension for a React Native component file?",
+					"options": [
+							".react",
+							".component",
+							".js",
+							".rn"
+					],
+					"answer": "2"
+			},
+			"question_8": {
+					"question": "What is the purpose of the 'render' method in a React Native component?",
+					"options": [
+							"To define the component's layout",
+							"To handle user interactions",
+							"To update the component's state",
+							"To render JSX elements"
+					],
+					"answer": "3"
+			},
+			"question_9": {
+					"question": "Which React Native component is used to display text?",
+					"options": [
+							"TextView",
+							"Text",
+							"Label",
+							"Paragraph"
+					],
+					"answer": "1"
+			},
+			"question_10": {
+					"question": "What is the purpose of the 'StyleSheet' component in React Native?",
+					"options": [
+							"To define the component's styles",
+							"To manage component states",
+							"To handle navigation between screens",
+							"To store global app data"
+					],
+					"answer": "0"
+			}
+	}
+,
+
+  "questions_medium": {
+    "question_1": {
+      "question": "What is the purpose of the 'state' in React Native?",
+      "options": [
+        "To store and manage component data",
+        "To handle component lifecycle methods",
+        "To define component styles",
+        "To manage component navigation"
+      ],
+      "answer": "0"
+    },
+    "question_2": {
+      "question": "What is the function of the 'props' in React Native?",
+      "options": [
+        "To pass data from a parent component to a child component",
+        "To define component styles",
+        "To handle component events",
+        "To manage component state"
+      ],
+      "answer": "0"
+    },
+    "question_3": {
+      "question": "Which navigation library is commonly used in React Native?",
+      "options": [
+        "React Router",
+        "React Navigation",
+        "React Native Navigation",
+        "React Native Router"
+      ],
+      "answer": "1"
+    },
+    "question_4": {
+      "question": "What is the purpose of the 'TouchableOpacity' component in React Native?",
+      "options": [
+        "To handle touch events for a component",
+        "To create a touchable area for a component",
+        "To navigate between screens",
+        "To display animated effects"
+      ],
+      "answer": "1"
+    },
+    "question_5": {
+      "question": "What is the purpose of the 'AsyncStorage' component in React Native?",
+      "options": [
+        "To store and retrieve data asynchronously",
+        "To manage component styles",
+        "To handle navigation between screens",
+        "To handle network requests"
+      ],
+      "answer": "0"
+    },
+    "question_6": {
+      "question": "What is the purpose of the 'FlatList' component in React Native?",
+      "options": [
+        "To display a scrollable list of items",
+        "To handle touch events for a component",
+        "To manage component state",
+        "To create animated transitions"
+      ],
+      "answer": "0"
+    },
+    "question_7": {
+      "question": "What is the purpose of the 'useEffect' hook in React Native?",
+      "options": [
+        "To handle component rendering",
+        "To manage component state",
+        "To handle component events",
+        "To perform side effects in a functional component"
+      ],
+      "answer": "3"
+    },
+    "question_8": {
+      "question": "What is the purpose of the 'TextInput' component in React Native?",
+      "options": [
+        "To display formatted text",
+        "To handle touch events for a component",
+        "To handle user input for text",
+        "To create animated transitions"
+      ],
+      "answer": "2"
+    },
+    "question_9": {
+      "question": "What is the purpose of the 'SafeAreaView' component in React Native?",
+      "options": [
+        "To display safe areas for different screen sizes",
+        "To create a touchable area for a component",
+        "To handle component styles",
+        "To handle navigation between screens"
+      ],
+      "answer": "0"
+    },
+    "question_10": {
+      "question": "What is the purpose of the 'ActivityIndicator' component in React Native?",
+      "options": [
+        "To display loading or progress indicators",
+        "To handle touch events for a component",
+        "To manage component state",
+        "To create animated effects"
+      ],
+      "answer": "0"
+    }
+  },
+		"questions_hard": {
+			"question_1": {
+					"question": "What is the purpose of the 'Native Modules' in React Native?",
+					"options": [
+							"To access native platform APIs from JavaScript",
+							"To manage state in React Native components",
+							"To handle navigation between screens",
+							"To create custom UI components"
+					],
+					"answer": "0"
+			},
+			"question_2": {
+					"question": "What is the purpose of the 'Animated' library in React Native?",
+					"options": [
+							"To create complex animations for UI components",
+							"To manage global application state",
+							"To handle network requests",
+							"To handle touch events for components"
+					],
+					"answer": "0"
+			},
+			"question_3": {
+					"question": "What is the purpose of the 'Bridge' in React Native?",
+					"options": [
+							"To communicate between JavaScript and native modules",
+							"To manage component state",
+							"To handle component rendering",
+							"To handle navigation between screens"
+					],
+					"answer": "0"
+			},
+			"question_4": {
+					"question": "What is the purpose of the 'Hermes' engine in React Native?",
+					"options": [
+							"To improve JavaScript performance in React Native apps",
+							"To handle touch events for components",
+							"To manage component styles",
+							"To create custom UI components"
+					],
+					"answer": "0"
+			},
+			"question_5": {
+					"question": "What is the purpose of the 'Image' component in React Native?",
+					"options": [
+							"To display images in a React Native app",
+							"To handle touch events for components",
+							"To manage component state",
+							"To create animated transitions"
+					],
+					"answer": "0"
+			},
+			"question_6": {
+					"question": "What is the purpose of the 'Linking' API in React Native?",
+					"options": [
+							"To handle deep linking and app URLs",
+							"To manage component rendering",
+							"To handle network requests",
+							"To create custom UI components"
+					],
+					"answer": "0"
+			},
+			"question_7": {
+					"question": "What is the purpose of the 'DevTools' in React Native?",
+					"options": [
+							"To debug and inspect React Native apps",
+							"To manage component state",
+							"To handle touch events for components",
+							"To handle navigation between screens"
+					],
+					"answer": "0"
+			},
+			"question_8": {
+					"question": "What is the purpose of the 'VirtualizedList' component in React Native?",
+					"options": [
+							"To efficiently render large lists of data",
+							"To handle touch events for components",
+							"To manage component state",
+							"To create animated effects"
+					],
+					"answer": "0"
+			},
+			"question_9": {
+					"question": "What is the purpose of the 'AsyncStorage' component in React Native?",
+					"options": [
+							"To store and retrieve data asynchronously",
+							"To handle touch events for components",
+							"To manage component styles",
+							"To handle navigation between screens"
+					],
+					"answer": "0"
+			},
+			"question_10": {
+					"question": "What is the purpose of the 'InteractionManager' API in React Native?",
+					"options": [
+							"To schedule tasks and manage interactions",
+							"To handle touch events for components",
+							"To manage component state",
+							"To create animated transitions"
+					],
+					"answer": "0"
+			}
+	}
+		}
+	
+	]

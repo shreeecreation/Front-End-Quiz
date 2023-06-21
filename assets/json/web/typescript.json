@@ -1,0 +1,316 @@
+[
+	{
+		"info": [
+			"Flutter - Beautiful Apps, Fast Development.",
+			"Flutter - Build Once, Run Anywhere",
+			"Flutter - The Power of Native Performance.",
+			"Flutter - Fast, expressive, and flexible UI development."
+		],
+		"questions_easy": {
+			"question_1": {
+				"question": "What is TypeScript?",
+				"options": [
+					"A superset of JavaScript that adds static typing",
+					"A programming language for building web applications",
+					"A database management system",
+					"A server operating system"
+				],
+				"answer": "0"
+			},
+			"question_2": {
+				"question": "Which command is used to install TypeScript globally?",
+				"options": [
+					"npm install typescript",
+					"npm install -g typescript",
+					"npm install --global typescript",
+					"npm install -g tsc"
+				],
+				"answer": "1"
+			},
+			"question_3": {
+				"question": "What is the file extension for TypeScript files?",
+				"options": [
+					".ts",
+					".js",
+					".txt",
+					".html"
+				],
+				"answer": "0"
+			},
+			"question_4": {
+				"question": "What is the purpose of type annotations in TypeScript?",
+				"options": [
+					"To add comments to the code",
+					"To specify the data type of variables",
+					"To define HTML elements in a web page",
+					"To handle database operations"
+				],
+				"answer": "1"
+			},
+			"question_5": {
+				"question": "Which command is used to compile a TypeScript file?",
+				"options": [
+					"npm compile",
+					"tsc",
+					"npm run build",
+					"npm start"
+				],
+				"answer": "1"
+			},
+			"question_6": {
+				"question": "What is the purpose of the `let` keyword in TypeScript?",
+				"options": [
+					"To declare a constant variable",
+					"To declare a function",
+					"To define a class",
+					"To declare a mutable variable"
+				],
+				"answer": "3"
+			},
+			"question_7": {
+				"question": "What is the purpose of the `interface` keyword in TypeScript?",
+				"options": [
+					"To define a class",
+					"To declare a function",
+					"To specify the data type of variables",
+					"To define a contract for an object's structure"
+				],
+				"answer": "3"
+			},
+			"question_8": {
+				"question": "Which operator is used for optional chaining in TypeScript?",
+				"options": [
+					"??",
+					"!!",
+					"?.",
+					"::"
+				],
+				"answer": "2"
+			},
+			"question_9": {
+				"question": "What is the purpose of the `class` keyword in TypeScript?",
+				"options": [
+					"To define a function",
+					"To declare a constant variable",
+					"To define a class",
+					"To declare a mutable variable"
+				],
+				"answer": "2"
+			},
+			"question_10": {
+				"question": "What is the purpose of the `import` keyword in TypeScript?",
+				"options": [
+					"To declare a constant variable",
+					"To import code from other files or modules",
+					"To define a class",
+					"To declare a mutable variable"
+				],
+				"answer": "1"
+			}
+		},
+		"questions_medium": {
+			"question_1": {
+				"question": "What are generics in TypeScript?",
+				"options": [
+					"A way to create reusable components",
+					"A feature that allows working with different data types",
+					"A design pattern for object-oriented programming",
+					"A concept for handling exceptions"
+				],
+				"answer": "1"
+			},
+			"question_2": {
+				"question": "What is the purpose of the `readonly` modifier in TypeScript?",
+				"options": [
+					"To specify that a variable cannot be reassigned",
+					"To make a property of an object immutable",
+					"To restrict access to a class member",
+					"To mark a method as private"
+				],
+				"answer": "1"
+			},
+			"question_3": {
+				"question": "What is the difference between `interface` and `type` in TypeScript?",
+				"options": [
+					"`interface` is used for defining object shapes, while `type` is used for creating aliases of existing types",
+					"`interface` is used for defining types, while `type` is used for defining object shapes",
+					"`interface` is a keyword, while `type` is a built-in type",
+					"`interface` supports inheritance, while `type` does not"
+				],
+				"answer": "0"
+			},
+			"question_4": {
+				"question": "What is the purpose of the `this` keyword in TypeScript?",
+				"options": [
+					"To refer to the current class",
+					"To create an instance of a class",
+					"To specify the return type of a function",
+					"To refer to the current object"
+				],
+				"answer": "3"
+			},
+			"question_5": {
+				"question": "What is a union type in TypeScript?",
+				"options": [
+					"A type that represents a combination of multiple types",
+					"A type that represents a single value",
+					"A type that represents an array",
+					"A type that represents an object"
+				],
+				"answer": "0"
+			},
+			"question_6": {
+				"question": "What is the purpose of the `namespace` keyword in TypeScript?",
+				"options": [
+					"To define a block of reusable code",
+					"To define a scope for variables",
+					"To organize code into logical modules",
+					"To create an instance of a class"
+				],
+				"answer": "2"
+			},
+			"question_7": {
+				"question": "What is the `keyof` operator used for in TypeScript?",
+				"options": [
+					"To iterate over the elements of an array",
+					"To access the value of a property in an object",
+					"To get the keys of an object as a union type",
+					"To perform type casting"
+				],
+				"answer": "2"
+			},
+			"question_8": {
+				"question": "What is the purpose of the `abstract` keyword in TypeScript?",
+				"options": [
+					"To define a class that cannot be instantiated",
+					"To define a class that must be extended",
+					"To define a class with default implementations for some methods",
+					"To define a class with static members"
+				],
+				"answer": "0"
+			},
+			"question_9": {
+				"question": "What is the purpose of the `super` keyword in TypeScript?",
+				"options": [
+					"To refer to the base class in a derived class",
+					"To access a property of an object",
+					"To perform mathematical operations",
+					"To define a static method"
+				],
+				"answer": "0"
+			},
+			"question_10": {
+				"question": "What is the purpose of the `as` keyword in TypeScript?",
+				"options": [
+					"To define a type assertion",
+					"To define an arrow function",
+					"To define a generic type",
+					"To define a class constructor"
+				],
+				"answer": "0"
+			}
+		},
+		"questions_hard": {
+			"question_1": {
+				"question": "What is the purpose of the `keyof` and `typeof` operators in TypeScript?",
+				"options": [
+					"To create custom type guards",
+					"To perform type casting",
+					"To iterate over the properties of an object",
+					"To access the value of a property in an object"
+				],
+				"answer": "2"
+			},
+			"question_2": {
+				"question": "What is the difference between `interface` and `class` in TypeScript?",
+				"options": [
+					"`interface` is used for defining object shapes, while `class` is used for creating objects",
+					"`interface` is a runtime construct, while `class` is a compile-time construct",
+					"`interface` supports multiple inheritance, while `class` does not",
+					"`interface` cannot have implementation details, while `class` can"
+				],
+				"answer": "3"
+			},
+			"question_3": {
+				"question": "What are conditional types in TypeScript?",
+				"options": [
+					"Types that depend on a condition",
+					"Types that are automatically inferred by the compiler",
+					"Types that are assigned to variables",
+					"Types that are defined within a function"
+				],
+				"answer": "0"
+			},
+			"question_4": {
+				"question": "What is the purpose of the `never` type in TypeScript?",
+				"options": [
+					"To specify that a variable is uninitialized",
+					"To represent a value that never occurs",
+					"To define a type with all possible values",
+					"To perform type casting"
+				],
+				"answer": "1"
+			},
+			"question_5": {
+				"question": "What is the purpose of the `private` modifier in TypeScript?",
+				"options": [
+					"To restrict access to a class member",
+					"To specify that a class cannot be extended",
+					"To define a class with static members",
+					"To define a class with abstract methods"
+				],
+				"answer": "0"
+			},
+			"question_6": {
+				"question": "What is the purpose of the `infer` keyword in TypeScript?",
+				"options": [
+					"To define a type parameter",
+					"To create a type alias",
+					"To infer the type of a value from its usage",
+					"To perform type casting"
+				],
+				"answer": "2"
+			},
+			"question_7": {
+				"question": "What is the purpose of the `this` type in TypeScript?",
+				"options": [
+					"To refer to the current class",
+					"To create an instance of a class",
+					"To specify the return type of a function",
+					"To refer to the current object"
+				],
+				"answer": "3"
+			},
+			"question_8": {
+				"question": "What are mapped types in TypeScript?",
+				"options": [
+					"Types that map over a union of types and produce a new type",
+					"Types that are automatically inferred by the compiler",
+					"Types that are assigned to variables",
+					"Types that are defined within a function"
+				],
+				"answer": "0"
+			},
+			"question_9": {
+				"question": "What is the purpose of the `typeof` keyword in TypeScript?",
+				"options": [
+					"To create an instance of a class",
+					"To define a type assertion",
+					"To refer to the type of a value",
+					"To perform type casting"
+				],
+				"answer": "2"
+			},
+			"question_10": {
+				"question": "What is the purpose of the `in` keyword in TypeScript?",
+				"options": [
+					"To iterate over the properties of an object",
+					"To access the value of a property in an object",
+					"To perform type casting",
+					"To define a type assertion"
+				],
+				"answer": "0"
+			}
+		}
+	}
+]

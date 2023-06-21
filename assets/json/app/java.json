@@ -1,0 +1,316 @@
+[
+	{
+		"info": [
+			"Flutter - Beautiful Apps, Fast Development.",
+			"Flutter - Build Once, Run Anywhere",
+			"Flutter - The Power of Native Performance.",
+			"Flutter - Fast, expressive, and flexible UI development."
+		],"questions_easy": {
+			"question_1": {
+					"question": "What is the capital city of Java, the Indonesian island?",
+					"options": [
+							"Jakarta",
+							"Bandung",
+							"Surabaya",
+							"Yogyakarta"
+					],
+					"answer": "0"
+			},
+			"question_2": {
+					"question": "Which keyword is used to create a subclass in Java?",
+					"options": [
+							"extends",
+							"implements",
+							"sub",
+							"inherits"
+					],
+					"answer": "0"
+			},
+			"question_3": {
+					"question": "What is the output of the following Java code?\n\n```\nint x = 5;\nSystem.out.println(x++);\n```",
+					"options": [
+							"4",
+							"5",
+							"6",
+							"Compilation error"
+					],
+					"answer": "1"
+			},
+			"question_4": {
+					"question": "Which data type is used to store whole numbers in Java?",
+					"options": [
+							"int",
+							"float",
+							"boolean",
+							"String"
+					],
+					"answer": "0"
+			},
+			"question_5": {
+					"question": "What is the output of the following Java code?\n\n```\nString str = \"Hello, World!\";\nSystem.out.println(str.substring(7));\n```",
+					"options": [
+							"Hello",
+							"World",
+							"World!",
+							"Compilation error"
+					],
+					"answer": "2"
+			},
+			"question_6": {
+					"question": "Which loop is guaranteed to execute at least once in Java?",
+					"options": [
+							"for loop",
+							"while loop",
+							"do-while loop",
+							"if-else statement"
+					],
+					"answer": "2"
+			},
+			"question_7": {
+					"question": "What is the access modifier for a method that can be accessed within the same class and subclasses?",
+					"options": [
+							"public",
+							"private",
+							"protected",
+							"default"
+					],
+					"answer": "2"
+			},
+			"question_8": {
+					"question": "Which Java keyword is used to explicitly throw an exception?",
+					"options": [
+							"throw",
+							"throws",
+							"exception",
+							"catch"
+					],
+					"answer": "0"
+			},
+			"question_9": {
+					"question": "What is the output of the following Java code?\n\n```\nint[] numbers = {1, 2, 3, 4, 5};\nSystem.out.println(numbers[3]);\n```",
+					"options": [
+							"1",
+							"2",
+							"3",
+							"4"
+					],
+					"answer": "3"
+			},
+			"question_10": {
+					"question": "Which of the following is NOT a Java keyword?",
+					"options": [
+							"class",
+							"int",
+							"string",
+							"while"
+					],
+					"answer": "2"
+			}
+	},
+	"questions_medium": {
+		"question_1": {
+				"question": "What is the output of the following Java code?\n\n```\nint x = 10;\nSystem.out.println(x > 5 ? \"Yes\" : \"No\");\n```",
+				"options": [
+						"Yes",
+						"No",
+						"True",
+						"False"
+				],
+				"answer": "0"
+		},
+		"question_2": {
+				"question": "What is the purpose of the 'transient' keyword in Java?",
+				"options": [
+						"To specify that a variable cannot be changed",
+						"To prevent a class from being inherited",
+						"To indicate that a variable should not be serialized",
+						"To enforce a method implementation in a subclass"
+				],
+				"answer": "2"
+		},
+		"question_3": {
+				"question": "What is the difference between method overloading and method overriding in Java?",
+				"options": [
+						"Method overloading is static polymorphism, while method overriding is dynamic polymorphism",
+						"Method overloading is dynamic polymorphism, while method overriding is static polymorphism",
+						"Method overloading involves changing a method's name, while method overriding involves changing a method's implementation",
+						"Method overloading allows multiple methods with the same name but different return types, while method overriding does not"
+				],
+				"answer": "0"
+		},
+		"question_4": {
+				"question": "What is the output of the following Java code?\n\n```\nString str1 = \"Java\";\nString str2 = \"Java\";\nSystem.out.println(str1 == str2);\n```",
+				"options": [
+						"true",
+						"false",
+						"Compilation error",
+						"NullPointerException"
+				],
+				"answer": "0"
+		},
+		"question_5": {
+				"question": "What is the purpose of the 'finally' block in Java exception handling?",
+				"options": [
+						"To handle an exception",
+						"To specify code that should always be executed",
+						"To define a custom exception",
+						"To throw an exception"
+				],
+				"answer": "1"
+		},
+		"question_6": {
+				"question": "What is the output of the following Java code?\n\n```\nint x = 5;\nSystem.out.println(++x);\n```",
+				"options": [
+						"4",
+						"5",
+						"6",
+						"Compilation error"
+				],
+				"answer": "2"
+		},
+		"question_7": {
+				"question": "What is the purpose of the 'static' keyword in Java?",
+				"options": [
+						"To specify that a variable cannot be changed",
+						"To indicate that a method should be overridden",
+						"To define a constant variable",
+						"To enforce encapsulation"
+				],
+				"answer": "2"
+		},
+		"question_8": {
+				"question": "Which Java keyword is used to prevent a variable from being modified?",
+				"options": [
+						"final",
+						"static",
+						"constant",
+						"private"
+				],
+				"answer": "0"
+		},
+		"question_9": {
+				"question": "What is the output of the following Java code?\n\n```\nString str = null;\nSystem.out.println(str.length());\n```",
+				"options": [
+						"null",
+						"0",
+						"Compilation error",
+						"NullPointerException"
+				],
+				"answer": "3"
+		},
+		"question_10": {
+				"question": "What is the purpose of the 'super' keyword in Java?",
+				"options": [
+						"To call the superclass constructor",
+						"To define a superclass",
+						"To override a method in the superclass",
+						"To access static methods"
+				],
+				"answer": "0"
+		}
+},
+"questions_hard": {
+	"question_1": {
+			"question": "What is the output of the following Java code?\n\n```\nString str1 = new String(\"Java\");\nString str2 = new String(\"Java\");\nSystem.out.println(str1.equals(str2));\n```",
+			"options": [
+					"true",
+					"false",
+					"Compilation error",
+					"NullPointerException"
+			],
+			"answer": "0"
+	},
+	"question_2": {
+			"question": "What is the purpose of the 'volatile' keyword in Java?",
+			"options": [
+					"To indicate that a variable can be accessed by multiple threads",
+					"To prevent a class from being inherited",
+					"To define a constant variable",
+					"To enforce encapsulation"
+			],
+			"answer": "0"
+	},
+	"question_3": {
+			"question": "What is the difference between a deep copy and a shallow copy in Java?",
+			"options": [
+					"A deep copy creates a new object with copies of all the referenced objects, while a shallow copy creates a new object with references to the same objects",
+					"A deep copy copies only the primitive data types of an object, while a shallow copy copies both the primitive data types and the references to other objects",
+					"A deep copy copies the object's instance variables, while a shallow copy copies the object's methods",
+					"A deep copy is used for mutable objects, while a shallow copy is used for immutable objects"
+			],
+			"answer": "0"
+	},
+	"question_4": {
+			"question": "What is the output of the following Java code?\n\n```\nint x = 5;\nSystem.out.println(x << 2);\n```",
+			"options": [
+					"10",
+					"20",
+					"8",
+					"Compilation error"
+			],
+			"answer": "1"
+	},
+	"question_5": {
+			"question": "What is the purpose of the 'finalize()' method in Java?",
+			"options": [
+					"To explicitly deallocate memory for an object",
+					"To clean up system resources before an object is garbage collected",
+					"To invoke the garbage collector",
+					"To prevent an object from being garbage collected"
+			],
+			"answer": "1"
+	},
+	"question_6": {
+			"question": "What is the output of the following Java code?\n\n```\nString str = \"Java\";\nSystem.out.println(str.replace('a', 'i'));\n```",
+			"options": [
+					"Java",
+					"Jivi",
+					"Jivi",
+					"Compilation error"
+			],
+			"answer": "2"
+	},
+	"question_7": {
+			"question": "What is the purpose of the 'this' keyword in Java?",
+			"options": [
+					"To call the superclass constructor",
+					"To define a subclass",
+					"To refer to the current object instance",
+					"To access static methods"
+			],
+			"answer": "2"
+	},
+	"question_8": {
+			"question": "Which Java keyword is used to prevent a class from being subclassed?",
+			"options": [
+					"final",
+					"static",
+					"abstract",
+					"private"
+			],
+			"answer": "0"
+	},
+	"question_9": {
+			"question": "What is the output of the following Java code?\n\n```\nString str = \"Java\";\nSystem.out.println(str.substring(0, 2));\n```",
+			"options": [
+					"Ja",
+					"Jav",
+					"Java",
+					"Compilation error"
+			],
+			"answer": "0"
+	},
+	"question_10": {
+			"question": "What is the purpose of the 'strictfp' keyword in Java?",
+			"options": [
+					"To define a strict floating-point precision",
+					"To indicate that a class should be executed in strict mode",
+					"To prevent a class from being inherited",
+					"To enforce encapsulation"
+			],
+			"answer": "0"
+	}
+}
+		}
+	
+	]

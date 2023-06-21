@@ -108,7 +108,7 @@
 				"answer": "0"
 			}
 		},
-		"questions_medium": {
+		"questions_medium": 
 			{
 				"questions_1": {
 					"question": "What is the purpose of the 'BuildContext' parameter in Flutter?",
@@ -212,7 +212,7 @@
 				}
 			},
 			"questions_hard": {
-				{
+				
 					"questions_1": {
 						"question": "What is the maximum number of concurrent animations recommended in Flutter?",
 						"options": [
@@ -313,7 +313,8 @@
 						],
 						"answer": "0"
 					}
-				}
+				
 			}
-		}}
+		}
+	
 	]

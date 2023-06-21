@@ -1,0 +1,325 @@
+[
+	{
+		"info": [
+			"Flutter - Beautiful Apps, Fast Development.",
+			"Flutter - Build Once, Run Anywhere",
+			"Flutter - The Power of Native Performance.",
+			"Flutter - Fast, expressive, and flexible UI development."
+		],
+		
+		"questions_easy": {
+			"question_1": {
+					"question": "What is NestJS?",
+					"options": [
+							"A JavaScript framework for building efficient and scalable web applications",
+							"A database management system",
+							"A programming language",
+							"A server operating system"
+					],
+					"answer": "0"
+			},
+			"question_2": {
+					"question": "Which programming language is commonly used with NestJS?",
+					"options": [
+							"JavaScript",
+							"Python",
+							"Java",
+							"C++"
+					],
+					"answer": "0"
+			},
+			"question_3": {
+					"question": "What is the purpose of the main.ts file in a NestJS application?",
+					"options": [
+							"To define the main route of the application",
+							"To handle database operations",
+							"To configure the dependency injection system",
+							"To bootstrap the NestJS application"
+					],
+					"answer": "3"
+			},
+			"question_4": {
+					"question": "Which command is used to start a NestJS application in development mode?",
+					"options": [
+							"npm start",
+							"npm run dev",
+							"npm serve",
+							"npm run start:dev"
+					],
+					"answer": "3"
+			},
+			"question_5": {
+					"question": "What is the purpose of the @Module decorator in NestJS?",
+					"options": [
+							"To define a route handler",
+							"To create a new module",
+							"To handle database operations",
+							"To define a controller"
+					],
+					"answer": "1"
+			},
+			"question_6": {
+					"question": "Which command is used to generate a new module in NestJS?",
+					"options": [
+							"nest generate module",
+							"nest create module",
+							"nest new module",
+							"nest add module"
+					],
+					"answer": "0"
+			},
+			"question_7": {
+					"question": "What is the purpose of a controller in NestJS?",
+					"options": [
+							"To define the main route of the application",
+							"To handle database operations",
+							"To handle incoming HTTP requests",
+							"To configure the dependency injection system"
+					],
+					"answer": "2"
+			},
+			"question_8": {
+					"question": "Which HTTP method is used to retrieve data in NestJS?",
+					"options": [
+							"GET",
+							"POST",
+							"PUT",
+							"DELETE"
+					],
+					"answer": "0"
+			},
+			"question_9": {
+					"question": "What is the purpose of a service in NestJS?",
+					"options": [
+							"To define the main route of the application",
+							"To handle database operations",
+							"To handle incoming HTTP requests",
+							"To encapsulate business logic and data operations"
+					],
+					"answer": "3"
+			},
+			"question_10": {
+					"question": "Which command is used to generate a new controller in NestJS?",
+					"options": [
+							"nest generate controller",
+							"nest create controller",
+							"nest new controller",
+							"nest add controller"
+					],
+					"answer": "0"
+			}
+	}
+	
+,
+
+"questions_medium": {
+	"question_1": {
+			"question": "What is the purpose of Dependency Injection in NestJS?",
+			"options": [
+					"To manage database connections",
+					"To handle authentication and authorization",
+					"To manage the flow of control between modules",
+					"To provide instances of classes to other classes"
+			],
+			"answer": "3"
+	},
+	"question_2": {
+			"question": "Which module is responsible for handling database operations in NestJS?",
+			"options": [
+					"MainModule",
+					"AppModule",
+					"RootModule",
+					"DatabaseModule"
+			],
+			"answer": "3"
+	},
+	"question_3": {
+			"question": "What is the purpose of the NestJS Interceptor?",
+			"options": [
+					"To handle incoming HTTP requests",
+					"To intercept and manipulate HTTP responses",
+					"To perform data validation",
+					"To define shared configuration settings"
+			],
+			"answer": "1"
+	},
+	"question_4": {
+			"question": "What is the purpose of the NestJS Exception Filter?",
+			"options": [
+					"To handle database operations",
+					"To transform HTTP responses",
+					"To handle authentication and authorization",
+					"To define route handlers"
+			],
+			"answer": "1"
+	},
+	"question_5": {
+			"question": "Which decorator is used to inject dependencies into a NestJS component or controller constructor?",
+			"options": [
+					"@Inject()",
+					"@Injectable()",
+					"@Dependency()",
+					"@InjectDependency()"
+			],
+			"answer": "0"
+	},
+	"question_6": {
+			"question": "What is the purpose of the NestJS Middleware?",
+			"options": [
+					"To handle HTTP requests and responses",
+					"To validate input data",
+					"To define routes and route handlers",
+					"To log application events"
+			],
+			"answer": "0"
+	},
+	"question_7": {
+			"question": "What is the purpose of the NestJS Provider?",
+			"options": [
+					"To handle database operations",
+					"To define shared configuration settings",
+					"To perform authentication and authorization",
+					"To manage instances of classes"
+			],
+			"answer": "3"
+	},
+	"question_8": {
+			"question": "Which CLI command is used to generate a new service in NestJS?",
+			"options": [
+					"nest generate service",
+					"nest create service",
+					"nest new service",
+					"nest add service"
+			],
+			"answer": "0"
+	},
+	"question_9": {
+			"question": "What is the purpose of the NestJS Pipe?",
+			"options": [
+					"To transform data before it reaches the route handler",
+					"To handle HTTP requests and responses",
+					"To handle database operations",
+					"To define the application's business logic"
+			],
+			"answer": "0"
+	},
+	"question_10": {
+			"question": "Which decorator is used to apply validation rules to a NestJS DTO class?",
+			"options": [
+					"@Validation()",
+					"@Rules()",
+					"@Dto()",
+					"@IsOptional()"
+			],
+			"answer": "3"
+	}
+}
+,
+
+
+"questions_hard": {
+	"question_1": {
+			"question": "What is the purpose of the NestJS ExecutionContext?",
+			"options": [
+					"To provide information about the current request context",
+					"To handle the execution of asynchronous operations",
+					"To manage the dependency injection system",
+					"To configure the database connection"
+			],
+			"answer": "0"
+	},
+	"question_2": {
+			"question": "What is the purpose of the NestJS Decorator?",
+			"options": [
+					"To add metadata and modify the behavior of classes",
+					"To handle database operations",
+					"To perform authentication and authorization",
+					"To define shared configuration settings"
+			],
+			"answer": "0"
+	},
+	"question_3": {
+			"question": "What is the purpose of the NestJS ExecutionContextHost?",
+			"options": [
+					"To handle incoming HTTP requests",
+					"To manage the execution of NestJS components",
+					"To provide information about the current request context",
+					"To handle authentication and authorization"
+			],
+			"answer": "1"
+	},
+	"question_4": {
+			"question": "What is the purpose of the NestJS Dynamic Module?",
+			"options": [
+					"To define shared configuration settings",
+					"To handle database operations",
+					"To manage the flow of control between modules",
+					"To dynamically configure the module at runtime"
+			],
+			"answer": "3"
+	},
+	"question_5": {
+			"question": "What is the purpose of the NestJS Custom Decorator?",
+			"options": [
+					"To handle incoming HTTP requests",
+					"To add custom functionality to classes",
+					"To define shared configuration settings",
+					"To perform data validation"
+			],
+			"answer": "1"
+	},
+	"question_6": {
+			"question": "What is the purpose of the NestJS Execution Context Container?",
+			"options": [
+					"To manage the execution context of NestJS components",
+					"To provide information about the current request context",
+					"To handle database operations",
+					"To configure the dependency injection system"
+			],
+			"answer": "0"
+	},
+	"question_7": {
+			"question": "What is the purpose of the NestJS Custom Provider?",
+			"options": [
+					"To handle database operations",
+					"To define shared configuration settings",
+					"To provide instances of classes with custom initialization logic",
+					"To perform authentication and authorization"
+			],
+			"answer": "2"
+	},
+	"question_8": {
+			"question": "What is the purpose of the NestJS Hybrid Application?",
+			"options": [
+					"To handle both client-side and server-side rendering",
+					"To combine multiple NestJS applications into a single application",
+					"To handle database operations using both SQL and NoSQL databases",
+					"To integrate NestJS with other frameworks or platforms"
+			],
+			"answer": "1"
+	},
+	"question_9": {
+			"question": "What is the purpose of the NestJS Custom Decorator Factory?",
+			"options": [
+					"To handle incoming HTTP requests",
+					"To add custom functionality to classes",
+					"To define shared configuration settings",
+					"To perform data validation"
+			],
+			"answer": "1"
+	},
+	"question_10": {
+			"question": "What is the purpose of the NestJS Prisma Integration?",
+			"options": [
+					"To handle database operations using the Prisma ORM",
+					"To handle incoming HTTP requests",
+					"To provide information about the current request context",
+					"To perform data validation"
+			],
+			"answer": "0"
+	}
+}
+
+		}
+	
+	]
