@@ -1,6 +1,6 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:flutter/material.dart';
-import 'package:quiz/src/app/screens/Quiz%20Screen/domain/loaded_quiz_data.dart';
+import 'package:quiz/src/app/screens/QuizScreen/domain/loaded_quiz_data.dart';
 import 'package:quiz/src/core/Routes/routes.dart';
 import 'package:quiz/src/core/extensions/colors_extension.dart';
 import 'package:quiz/src/core/themes/appcolors.dart';
@@ -24,6 +24,7 @@ class LevelDialog {
               onTap: () async {
                 //Loading the quiz data
                 LoadedQuizData.intensity = "Unchallenging";
+                LoadedQuizData.questionMode = "questions_easy";
                 Navigator.pop(context);
                 await Future.delayed(const Duration(milliseconds: 500));
                 Routes.loadingScreenRoutes();
@@ -42,6 +43,8 @@ class LevelDialog {
               ),
               onTap: () async {
                 //Loading the quiz data
+                LoadedQuizData.questionMode = "questions_medium";
+
                 LoadedQuizData.intensity = "Moderate";
                 Navigator.pop(context);
                 await Future.delayed(const Duration(milliseconds: 500));
@@ -63,6 +66,8 @@ class LevelDialog {
               ),
               onTap: () async {
                 //Loading the quiz data
+                LoadedQuizData.questionMode = "questions_hard";
+
                 LoadedQuizData.intensity = "Challening";
                 Navigator.pop(context);
                 await Future.delayed(const Duration(milliseconds: 500));

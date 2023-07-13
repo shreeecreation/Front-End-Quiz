@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:quiz/src/app/screens/Home%20Screen/presentation/home_screen.dart';
+import 'package:quiz/src/app/screens/HomeScreen/presentation/home_screen.dart';
 
 import 'src/core/themes/themedata.dart';
 

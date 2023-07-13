@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz/src/app/screens/Quiz%20Screen/quiz.dart';
+import 'package:quiz/src/app/screens/QuizScreen/quiz.dart';
 import 'package:quiz/src/core/themes/appcolors.dart';
 
 class LoadingScreen extends StatefulWidget {
